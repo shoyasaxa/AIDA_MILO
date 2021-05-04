@@ -73,7 +73,7 @@ milo_model.py
 mil_loss.py 
 	- combines MIL-NCE loss and MaxMarginRanking loss from loss.py 
 
-## commandline arguments
+## Commandline Arguments
 args.py
 
 ## Qualitative Analysis 
