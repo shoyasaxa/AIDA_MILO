@@ -45,11 +45,11 @@ CUDA_VISIBLE_DEVICES=6 python m2e2_train_milo_eval_coref_with_proposals_sim_thre
 	- Best model at additional_models/coref_pred_propagated_with_proposals/MILO_5_lw_2_v2/milo_9.pth
 
 ## CLIP baseline for both event coreference with and without proposals
-CLIP Multimodal Event Coreference Baseline.ipynb
+- CLIP Multimodal Event Coreference Baseline.ipynb
 
 ## MIL-NCE baseline for both event coreference with and without proposals
-MIL-NCE baseline without Proposals.ipynb
-MIL-NCE baseline with Proposals.ipynb 
+- MIL-NCE baseline without Proposals.ipynb
+- MIL-NCE baseline with Proposals.ipynb 
 
 
 ## DataLoaders
