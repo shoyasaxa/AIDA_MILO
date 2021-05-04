@@ -100,7 +100,20 @@ CUDA_VISIBLE_DEVICES=0 python generate_tsv_additional_vids.py
 --csv_split_pt_num 1400
  ``` 
 
-
-
-
+# Dataset Collection 
+- YouTube Search [notebook](https://colab.research.google.com/drive/1WAf77lCMIOR_XhXw_zCGm0441p7ev8_5?usp=sharing)
+	- Input: queries you want to use
+	- Output: vid_urls.json
+- Downloading Video descriptions (articles) [notebook](https://colab.research.google.com/drive/1bwrK71atOTaWZRk0NXqW80NcBmlrBiid?usp=sharing)
+	- Input: vid_urls.json 
+	- Output: vid2article.json
+- Downloading Captions [notebook](https://colab.research.google.com/drive/1OUlkByu5V2gDEBYpkTmILpwvNjig9DDh?usp=sharing)
+	- Input: vid2article.json
+	- Output: vid2article_master_not_filtered.json
+- Downloading Video files: /home/shoya/AIDA/additional_data_download/download_additional_m2e2_videos.py
+	- Input: vid_urls.json
+	- Output: downloaded mp4 files
+- Clean downloaded files: /home/shoya/AIDA/additional_data_download/Downloaded Data Due Diligence.ipynb
+	- Will delete the file entries that were not downloaded correctly from vid2article_master_not_filtered as well as from the output mp4 directory
+	- Output: vid2article_master_filtered.json
 
