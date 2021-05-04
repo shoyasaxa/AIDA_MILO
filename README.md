@@ -62,7 +62,7 @@ m2e2_dataloader.py
 - M2E2MILOManualLabelsWithArticleDataLoader
 	- for evaluation without proposals
 	- used in m2e2_train_milo_eval_coref_with_no_proposals
-M2E2MILOManualLabelsWithArticleAndProposalsDataLoader
+- M2E2MILOManualLabelsWithArticleAndProposalsDataLoader
 	- for evaluation with proposals
 	- used in m2e2_train_milo_eval_coref_with_proposals_sim_threshold.py
 
